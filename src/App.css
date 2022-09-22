@@ -1,0 +1,42 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: rgb(147, 195, 212);
+	width: 100vw;
+	height: 100vw;
+	text-align: center;
+	border: 40px solid black;
+	margin: 0;
+}
+
+input {
+	height: 35px;
+}
+
+li {
+	border: 3px solid black;
+	background-color: rgb(236, 235, 199);
+	margin: 20px;
+	list-style: none;
+	width: 95%;
+}
+
+button {
+	padding: 3px;
+	margin: 10px;
+}
+
+.todo {
+	margin: 15px 20px 15px 20px;
+}
+footer {
+	margin-top: 1vw;
+	padding: 2vw;
+	height: min-content;
+	width: 100%;
+	font-size: xx-large;
+	background-color: rgb(55, 52, 52);
+	color: white;
+}
